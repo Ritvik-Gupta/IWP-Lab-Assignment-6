@@ -1,0 +1,10 @@
+<!ELEMENT student (name, reg, college, branch, course, yoj, email, cgpa, ncou, noofcred)> 
+<!ELEMENT name (#PCDATA)> 
+<!ELEMENT college (#PCDATA)> 
+<!ELEMENT branch (#PCDATA)> 
+<!ELEMENT course (#PCDATA)> 
+<!ELEMENT yoj (#PCDATA)> 
+<!ELEMENT email (#PCDATA)> 
+<!ELEMENT cgpa (#PCDATA)> 
+<!ELEMENT ncou (#PCDATA)> 
+<!ELEMENT ncr (#PCDATA)>
