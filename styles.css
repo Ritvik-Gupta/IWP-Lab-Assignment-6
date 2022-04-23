@@ -1,7 +1,25 @@
+student {
+	width: 100vw;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
 name {
+	flex: 3;
 	font-size: 3vw;
 }
 
-student {
-	display: block;
+regis-num,
+college,
+branch,
+course,
+year-of-join,
+email,
+cgpa,
+num-courses,
+num-credits {
+	flex: 1;
+	font-size: 1vw;
+	margin: 10px;
 }

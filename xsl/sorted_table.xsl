@@ -25,7 +25,7 @@
                                 <xsl:value-of select="name" /> 
                             </td> 
                             <td> 
-                                <xsl:value-of select="reg" /> 
+                                <xsl:value-of select="regis-num" /> 
                             </td> 
                             <td> 
                                 <xsl:value-of select="college" /> 

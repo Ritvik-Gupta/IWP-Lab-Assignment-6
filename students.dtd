@@ -1,10 +1,11 @@
-<!ELEMENT student (name, reg, college, branch, course, yoj, email, cgpa, ncou, noofcred)> 
+<!ELEMENT student (name, regis-num, college, branch, course, year-of-join, email, cgpa, num-courses, num-credits)> 
 <!ELEMENT name (#PCDATA)> 
+<!ELEMENT regis-num (#PCDATA)>
 <!ELEMENT college (#PCDATA)> 
 <!ELEMENT branch (#PCDATA)> 
 <!ELEMENT course (#PCDATA)> 
-<!ELEMENT yoj (#PCDATA)> 
+<!ELEMENT year-of-join (#PCDATA)> 
 <!ELEMENT email (#PCDATA)> 
 <!ELEMENT cgpa (#PCDATA)> 
-<!ELEMENT ncou (#PCDATA)> 
-<!ELEMENT ncr (#PCDATA)>
+<!ELEMENT num-courses (#PCDATA)> 
+<!ELEMENT num-credits (#PCDATA)>
